@@ -1,0 +1,16 @@
+{
+  "name": "islamic-api-netlify",
+  "version": "1.0.0",
+  "description": "API for Islamic content (Quran, Prayer Schedule, Hadist, Doa)",
+  "main": "netlify/functions/index.js",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "netlify-cli": "^12.0.0"
+  }
+}
